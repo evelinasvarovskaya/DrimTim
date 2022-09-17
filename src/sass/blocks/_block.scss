@@ -1,0 +1,62 @@
+.block {
+  padding-top: 100px;
+  display: flex;
+  justify-content: space-between;
+  &_title {
+    font-family: 'segoe-wp-n';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 50px;
+    color: #0A0C0A;
+    width: 500px;
+    &-help {
+      width: 427px;
+      padding-top: 250px;
+      padding-bottom: 20px;
+    }
+    &-model {
+      width: auto;
+      padding-bottom: 70px;
+      text-align: center;
+    }
+  }
+  &_subtitle {
+    margin-top: 50px;
+    font-family: 'segoe-wp-n';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 31px;
+    color: #0A0C0A;
+    max-height: 369px;
+    width: 500px;
+  }
+  &__additional {
+    display: flex;
+    gap: 20px;
+    justify-content: flex-end;
+    &_icon {
+      height: 30px;
+    }
+    &_text {
+      width: 320px;
+      font-family: 'segoe-wp-n';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 21px;
+      color: #0A0C0A;
+    }
+  }
+  &_img {
+    margin-top: 112px;
+    max-height: 430px;
+  }
+}
+
+.surplus {
+  padding: 100px 0;
+  font-family: 'segoe-wp-n';
+  font-weight: 400;
+  font-size: 31px;
+  text-align: center;
+  color: #0A0C0A;
+}

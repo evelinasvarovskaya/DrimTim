@@ -1,0 +1,42 @@
+.characteristic {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  &_img {
+    height: 431px;
+  }
+  &_title {
+    margin-top: 100px;
+    font-family: 'Segoe WP';
+    font-weight: 400;
+    font-size: 50px;
+    text-align: center;
+    color: #0A0C0A;
+  }
+  &__info {
+    margin-top: 70px;
+    display: grid;
+    grid-template-columns: 300px 680px;
+    grid-column-gap: 90px;
+    grid-row-gap: 30px;
+    &__item {
+      gap: 90px;
+      display: flex;
+    }
+    &_name {
+      width: 300px;
+      font-family: 'Segoe WP';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 31px;
+      color: #8D9091;
+    }
+    &_descr {
+      font-family: 'Segoe WP';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 31px;
+      color: #0A0C0A;
+    }
+  }
+}

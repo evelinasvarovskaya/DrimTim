@@ -1,0 +1,20 @@
+.header {
+  padding: 50px 310px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  img {
+    &:nth-child(1) {
+      height: 14px;
+      cursor: pointer;
+    }
+    &:nth-child(2) {
+      height: 30px;
+      cursor: pointer;
+    }
+    &:nth-child(3) {
+      height: 14px;
+      cursor: pointer;
+    }
+  }
+}

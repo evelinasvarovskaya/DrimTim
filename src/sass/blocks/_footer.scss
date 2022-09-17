@@ -1,0 +1,23 @@
+.footer {
+  background: #0A0C0A;
+  color: #FFFFFF;
+  height: 80px;
+  &__info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 23px;
+  }
+  &_text {
+    font-family: 'Segoe WP';
+    font-weight: 400;
+    font-size: 14px;
+  }
+  &_links {
+    display: flex;
+    gap: 30px;
+    img {
+      cursor: pointer;
+    }
+  }
+}

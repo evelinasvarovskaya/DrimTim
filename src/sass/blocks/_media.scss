@@ -1,0 +1,708 @@
+@media (max-width: 1700px) {
+  .container {
+    padding: 0 235px 0 200px;
+  }
+}
+
+@media (max-width: 1500px) {
+  .container {
+    padding: 0 180px 0 180px;
+  }
+  .main {
+    padding: 100px 0 70px 0;
+    &__info {
+      gap: 150px;
+      &_img {
+        width: 300px;
+      }
+      &_title {
+        font-size: 70px;
+      }
+      &_subtitle {
+        font-size: 25px;
+      }
+      &__buy {
+        margin-top: 60px;
+      }
+    }
+  }
+  .block {
+    &_subtitle {
+      width: 400px;
+      font-size: 26px;
+    }
+    &__additional {
+      justify-content: flex-start;
+    }
+    &_img {
+      max-height: 360px;
+    }
+    &_title {
+      &-help {
+        padding-top: 120px;
+      }
+    }
+  }
+  .comfortable, .capabilities, .screen, .help {
+    height: 750px;
+  }
+  .surplus {
+    font-size: 26px;
+  }
+  .characteristic_img {
+    height: 337px;
+  }
+  .characteristic_title {
+    font-size: 38px;
+  }
+  .characteristic {
+    &__info {
+      grid-template-columns: 250px 440px;
+      grid-column-gap: 50px;
+      &_name {
+        font-size: 24px;
+        width: 250px;
+      }
+      &_descr {
+        font-size: 24px;
+      }
+    }
+  }
+  .help {
+    background-size: 110vw;
+    height: 529px;
+  }
+  .contacts {
+    gap: 100px;
+    justify-content: space-between;
+    &__block {
+      &_item {
+        font-size: 13px;
+      }
+    }
+  }
+}
+
+@media (max-width: 1200px) {
+  .header {
+    padding: 50px 120px
+  }
+  .container {
+    padding: 0 130px;
+  }
+  .main {
+    padding: 70px 0;
+    &__info {
+      gap: 140px;
+      &_img {
+        width: 250px;
+        height: 100%;
+      }
+      &_title {
+        font-size: 62px;
+      }
+      &_subtitle {
+        margin-top: 25px;
+        font-size: 23px;
+      }
+      &__buy {
+        margin-top: 30px;
+        &_price {
+          font-size: 22px;
+        }
+        &_btn {
+          font-size: 14px;
+          width: 120px;
+          height: 35px;
+        }
+      }
+    }
+    &__benefits {
+      gap: 65px;
+      &_title {
+        font-size: 12px;
+      }
+    }
+  }
+  .block {
+    &_title {
+      width: 300px;
+      font-size: 40px;
+    }
+    &_subtitle {
+      width: 350px;
+      font-size: 22px;
+    }
+    &_img {
+      max-height: 300px;
+      margin-top: 80px;
+    }
+    &__additional {
+      &_icon {
+        height: 15px;
+      }
+      &_text {
+        width: 250px;
+        font-size: 16px;
+      }
+    }
+  }
+  .comfortable, .capabilities, .screen {
+    height: 640px;
+  }
+  .surplus {
+    font-size: 22px;
+  }
+  .characteristic {
+    &_img {
+      height: 300px;
+    }
+    &_title {
+      font-size: 30px;
+      margin-top: 65px;
+    }
+    &__info {
+      grid-template-columns: 223px 394px;
+      grid-column-gap: 25px;
+      grid-row-gap: 10px;
+      &_name {
+        font-size: 18px;
+      }
+      &_descr {
+        font-size: 18px;
+      }
+    }
+  }
+  .model {
+    &__card {
+      width: 279px;
+      height: 141px;
+      img {
+        padding-left: 10px;
+        width: 100%;
+        height: 100px;
+      }
+      &_name {
+        font-size: 12px;
+      }
+      &_descr {
+        font-size: 10px;
+        width: 170px;
+      }
+      &_price {
+        font-size: 13px;
+      }
+    }
+  }
+  .help {
+    height: 480px;
+    &_subtitle {
+      font-size: 18px;
+    }
+    &_button {
+      width: 280px;
+      height: 40px;
+      font-size: 14px;
+    }
+  }
+  .contacts {
+    gap: 80px;
+    margin: 100px 0 30px 0;
+    justify-content: space-between;
+    &__block {
+      &_title {
+        font-size: 13px;
+      }
+      &_item {
+        font-size: 12px;
+      }
+    }
+  }
+  .footer {
+    height: 70px;
+    &__info {
+      padding-top: 20px;
+    }
+    &_text {
+      font-size: 12px;
+    }
+  }
+}
+
+@media (max-width: 991px) {
+  .header img:nth-child(2) {
+    height: 25px;
+    cursor: pointer;
+  }
+  .container {
+    padding: 0 120px;
+  }
+  .main {
+    &__info {
+      gap: 70px;
+      &_img {
+        width: 160px;
+      }
+      &_title {
+        font-size: 45px;
+      }
+      &_subtitle {
+        margin-top: 18px;
+        font-size: 18px;
+      }
+      &__buy {
+        margin-top: 25px;
+        &_price {
+          font-size: 18px;
+        }
+        &_btn {
+          font-size: 12px;
+          width: 100px;
+          height: 30px;
+        }
+      }
+    }
+    &__benefits {
+      gap: 35px;
+      &__item {
+        gap: 15px;
+      }
+      &_img {
+        height: 12px;
+      }
+      &_title {
+        font-size: 9px;
+      }
+    }
+  }
+  .block {
+    padding-top: 60px;
+    &_title {
+      width: 250px;
+      font-size: 28px;
+      &-model {
+        padding-bottom: 50px;
+      }
+    }
+    &_subtitle {
+      width: 263px;
+      font-size: 17px;
+    }
+    &_img {
+      max-height: 204px;
+      margin-top: 70px;
+    }
+    &__additional {
+      &_text {
+        font-size: 14px;
+        width: 200px;
+      }
+    }
+  }
+  .comfortable, .capabilities, .screen {
+     height: 460px;
+  }
+  .surplus {
+    font-size: 17px;
+    padding: 70px 0;
+  }
+  .characteristic {
+    &_img {
+      height: 230px;
+    }
+    &_title {
+      font-size: 26px;
+      margin-top: 35px;
+    }
+    &__info {
+      margin-top: 40px;
+      grid-template-columns: 180px 240px;
+      &_name {
+        width: 180px;
+        font-size: 16px;
+      }
+      &_descr {
+        font-size: 16px;
+      }
+    }
+  }
+  .model {
+    &__card {
+      width: 200px;
+      height: 100px;
+      img {
+        height: 70px;
+        padding-left: 5px;
+      }
+      &_descr {
+        font-size: 8px;
+        width: 116px;
+        margin-bottom: 8px;
+      }
+      &_price {
+        font-size: 12px;
+      }
+    }
+  }
+  .help {
+    height: 387px;
+    &_subtitle {
+      font-size: 17px;
+      width: 350px;
+    }
+    &_button {
+      width: 220px;
+      height: 32px;
+      font-size: 11px;
+    }
+  }
+  .contacts {
+    gap: 50px;
+    margin: 50px 0 30px 0;
+    &__block {
+      &:nth-child(1) {
+        width: 148px;
+      }
+      &_item {
+        font-size: 9px;
+        line-height: 20px;
+      }
+      &_title {
+        font-size: 11px;
+        margin-bottom: 15px;
+      }
+      &__btns {
+        margin-top: 15px;
+        &_btn {
+          img {
+            height: 25px;
+          }
+        }
+      }
+    }
+  }
+  .footer {
+    height: 40px;
+    &__info {
+      padding-top: 10px;
+    }
+    &_text {
+      font-size: 9px;
+    }
+    &_links {
+      gap: 15px;
+      img {
+        height: 20px;
+      }
+    }
+  }
+}
+
+@media (max-width: 767px) {
+  .header {
+    padding: 30px 60px;
+
+    img {
+      &:nth-child(2) {
+        height: 18px;
+      }
+
+      &:nth-child(1) {
+        height: 10px;
+      }
+    }
+  }
+  .container {
+    padding: 0 80px;
+  }
+  .main{
+    padding: 50px 0;
+    &__info {
+      gap: 50px;
+      &_img {
+        width: 130px;
+      }
+      &_title {
+        font-size: 28px;
+      }
+      &_subtitle {
+        margin-top: 13px;
+        font-size: 14px;
+      }
+      &__buy {
+        gap: 30px;
+        margin-top: 15px;
+        &_price {
+          font-size: 14px;
+        }
+        &_btn {
+          font-size: 12px;
+          width: 70px;
+          height: 22px;
+        }
+      }
+    }
+    &__benefits {
+      margin-top: 60px;
+      &_title {
+        font-size: 8px;
+      }
+    }
+  }
+  .block {
+    &_title {
+      font-size: 24px;
+    }
+    &_subtitle {
+      font-size: 14px;
+      width: 220px;
+      margin-top: 30px;
+    }
+    &_img {
+      max-height: 170px;
+      margin-top: 50px;
+    }
+    &__additional {
+      gap: 10px;
+      &_text {
+        font-size: 12px;
+        width: 180px;
+      }
+    }
+  }
+  .surplus {
+    font-size: 14px;
+    padding: 30px 0;
+  }
+  .comfortable, .capabilities, .screen {
+    height: 379px;
+  }
+  .characteristic {
+    &_img {
+      height: 180px;
+    }
+    &_title {
+      font-size: 20px;
+      margin-top: 30px;
+    }
+    &__info {
+      margin-top: 30px;
+      grid-template-columns: 130px 180px;
+      &_name {
+        font-size: 12px;
+        width: 120px;
+      }
+      &_descr {
+        font-size: 12px;
+      }
+    }
+  }
+  .model {
+    &__cards {
+      flex-direction: column;
+    }
+  }
+  .block_title-model {
+    padding-bottom: 30px;
+  }
+  .help {
+    height: 280px;
+  }
+  .block_title-help {
+    padding-top: 50px;
+  }
+  .help_subtitle {
+    font-size: 14px;
+    width: 300px;
+    margin-bottom: 15px;
+  }
+  .help_button {
+    width: 170px;
+    height: 26px;
+    font-size: 8px;
+  }
+  .contacts {
+    gap: 30px;
+    &__block {
+      &:nth-child(1) {
+        width: 100px;
+      }
+      &:nth-child(2) {
+        width: 170px;
+      }
+      &:nth-child(3) {
+        width: 250px;
+      }
+      &_title {
+        font-size: 7px;
+        margin-bottom: 10px;
+      }
+      &_item {
+        font-size: 7px;
+      }
+      &__btns {
+        &_btn{
+          &:nth-child(1) {
+            margin-right: 10px;
+          }
+          img {
+            height: 18px;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 575px) {
+  .container {
+    padding: 0 60px;
+  }
+  .header {
+    padding: 20px 40px;
+    img {
+      &:nth-child(2) {
+        height: 15px;
+      }
+      &:nth-child(1) {
+        height: 8px;
+      }
+    }
+  }
+  .main {
+    padding: 20px 0;
+    &__info {
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      gap: 20px;
+      &_title {
+        text-align: center;
+      }
+      &_subtitle {
+        text-align: center;
+        font-size: 12px;
+      }
+      &__buy {
+        justify-content: center;
+        gap: 15px;
+        &_price {
+          font-size: 12px;
+        }
+        &_btn {
+          font-size: 9px;
+          width: 50px;
+          height: 18px;
+        }
+      }
+    }
+    &__benefits {
+      margin-top: 30px;
+      gap: 10px;
+      flex-flow: wrap;
+      justify-content: space-between;
+      &__item {
+        gap: 5px;
+      }
+      &_img {
+        height: 8px;
+      }
+      &_title {
+        font-size: 7px;
+      }
+    }
+  }
+  .block {
+    padding-top: 25px;
+    flex-flow: wrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    &_title {
+      font-size: 20px;
+      width: 100%;
+    }
+    &_subtitle {
+      font-size: 12px;
+      margin-top: 20px;
+      width: 100%;
+    }
+    &_img {
+      margin-top: 15px;
+    }
+    &__additional {
+      margin-top: 25px;
+      &_text {
+        font-size: 10px;
+      }
+    }
+  }
+  .comfortable, .capabilities, .screen {
+    height: 480px;
+  }
+  .surplus {
+    font-size: 12px;
+    padding: 30px 0;
+  }
+  .characteristic {
+    &_img {
+      height: 140px;
+    }
+    &_title {
+      margin-top: 20px;
+    }
+    &__info {
+      grid-template-columns: 78px 131px;
+      &_name {
+        font-size: 9px;
+        width: 100px;
+      }
+      &_descr {
+        font-size: 9px;
+      }
+    }
+  }
+  .help {
+    background-color: #F7F9FC;
+    background-image: none;
+    text-align: center;
+    height: 250px;
+    &_subtitle {
+      width: 100%;
+      font-size: 12px;
+    }
+    &_button {
+      width: 135px;
+      height: 22px;
+      font-size: 7px;
+    }
+  }
+  .contacts {
+    gap: 15px;
+    flex-direction: column;
+    margin: 20px 0 20px 0;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    &__block {
+      &_item {
+        display: none;
+        line-height: 10px;
+        font-size: 7px;
+      }
+      &_title {
+        margin-bottom: 0;
+      }
+    }
+  }
+  .footer {
+    height: 30px;
+    &_links {
+      display: none;
+    }
+    &_text {
+      font-size: 6px;
+      width: 200px;
+    }
+  }
+}

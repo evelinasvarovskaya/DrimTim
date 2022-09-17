@@ -1,0 +1,22 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  padding: 0 435px 0 400px;
+}
+
+@import "base/variables";
+@import "blocks/header";
+@import "blocks/main";
+@import "blocks/comfortable";
+@import "blocks/block";
+@import "blocks/capabilities";
+@import "blocks/scren";
+@import "blocks/characteristic";
+@import "blocks/model";
+@import "blocks/help";
+@import "blocks/contacts";
+@import "blocks/footer";
+@import "blocks/media";

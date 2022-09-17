@@ -1,0 +1,48 @@
+.contacts {
+  margin: 147px 0 30px 0;
+  display: flex;
+  gap: 188px;
+  &__block {
+    &:nth-child(1) {
+      width: 114px;
+    }
+    &:nth-child(2) {
+      width: 205px;
+    }
+    &:nth-child(3) {
+      width: 370px;
+    }
+    &_title {
+      font-family: 'Segoe WP';
+      font-weight: 700;
+      font-size: 16px;
+      color: #00615B;
+      margin-bottom: 23px;
+      cursor: pointer;
+    }
+    &_item {
+      font-family: 'Segoe WP';
+      font-weight: 400;
+      font-size: 14px;
+      color: #0A0C0A;
+      line-height: 30px;
+      span {
+        color: #00615B;
+      }
+    }
+    &__btns {
+      margin-top: 30px;
+      &_btn {
+        border: none;
+        cursor: pointer;
+        &:nth-child(1) {
+          margin-right: 20px;
+        }
+      }
+    }
+  }
+}
+
+.danger {
+  color: #F54A4A !important;
+}
